@@ -1,0 +1,60 @@
+The objective is to translate Generic expressions into english. generics defined in Java.
+
+boolean addAll(Collection<? extends E> c)
+
+A method signature that returns a boolean and takes as argument an
+instance 'c' from a class that implements the interface Collection. The instance
+'c' implementing the interface Collection must be comprised of
+elements of a (previously declared) generic type E or a subclass/subinterface of
+ E.
+
+boolean containsAll(Collection<?> c)
+
+A method signature that returns a boolean and takes as argument an
+instance 'c' of a class that implements the interface Collection. The instance
+'c' implementing the interface Collection can be comprised of elements of any
+type.
+
+static <T> void fill(List<? super T> list, T obj)
+
+A static method signature that has no return and takes as arguments (hw61) an
+instance 'list' from a class that implements the interface List and (2) an
+instance 'obj' of the generic type T. The instance 'list' implementing
+the interface List must be comprised of elements of generic type T or a
+superclass/superinterface of T.
+
+static <T extends Comparable<? super T>> void sort(List<T> list)
+
+A static method signature that has no return and takes as argument an instance
+'list' from a class that implements the interface List. The instance
+'list' must be comprised of elements of generic type T, where T must be a
+class/interface that extends/implements Comparable, and the elements
+of Comparable must be of generic type T or a superclass/superinterface of T.
+
+static <T> void sort(List<T> list, Comparator<? super T> c)
+
+A static method signature that has no return and takes as arguments (hw61) an
+instance 'list' from a class that implements the interface List and (2) an
+instance 'c' from a class that implements the interface Comparator. Instance
+'list' must be  comprised of elements of generic type T. Instance 'c' must be
+comprised of elements of generic type T or a superclass/superinterface of T.
+
+static void swap(List<?> list, int i, int j)
+
+A static method signature that has no return and takes as arguments (hw61) an
+instance 'list' from a class that implements interface List, (2) an int 'i' and
+(3) an int 'j'. Instance 'list' implementing the interface List can be
+comprised of elements of any type.
+
+static <K, V> Map<K,V> synchronizedMap(Map<K,V> m)
+
+A static method signature that returns an instance from a class that implements
+interface Map and takes as argument an instance 'm' from a class that implements
+ the interface Map. Elements of both 'm' and the return of the method must be
+ comprised of elements of types K and V.
+
+static void reverse(List<?> list)
+
+A static method signature that has no return and takes as argument an instance
+'list' from a class that implements the interface List. Instance 'list' can be
+comprised of elements of any type.
