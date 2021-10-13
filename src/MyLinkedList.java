@@ -29,7 +29,7 @@ public class MyLinkedList<E> {
         }
     }
 
-    public String find(E element) {
+    public String findString(E element) {
         String resultsString = "";
 
         for (Node<E> current = lastElement; current != null; current =
@@ -42,6 +42,20 @@ public class MyLinkedList<E> {
         }
 
         return resultsString;
+    }
+
+    public Person find(E element) {
+        String resultsString = "";
+
+        for (Node<E> current = lastElement; current != null; current =
+                current.next) {
+            if (current.object.equals(element)) {
+                return (Person) current.object;
+            }
+
+        }
+
+        return null;
     }
 
     public String toString() {
@@ -71,7 +85,7 @@ public class MyLinkedList<E> {
         personList.remove( p2 );
         System.out.println( personList );
 
-        String who = personList.find( p1 );
+        Person who = personList.find( p1 );
         System.out.println( who );
 
     }
