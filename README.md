@@ -6,26 +6,25 @@ sessions.
 
 ---
 
-### HW6.1: Solar System using multiple classes
+### HW7.1: Multi-type storage, custom objects
 
-- https://cs.rit.edu/~hpb/Lectures/2201/605/605-483.html
-- Solution files are in lecture notes
-- How about we draw a class/interface diagram?
-- hw61.tiff
-- Questions?
+https://www.cs.rit.edu/~hpb/Lectures/2211/605/605-405.html
 
-### HW6.2: Fixing our Solar System classes
+### HW7.2: Chess-like game, 2D, with abstract classes
 
-- https://cs.rit.edu/~hpb/Lectures/2201/605/605-484.html
-- Solution files are in lecture notes
-- How about we draw a class/interface diagram?
-- hw62.tiff
-- Questions?
+https://www.cs.rit.edu/~hpb/Lectures/2211/605/605-406.html
 
-### HW6.3: Generic Expressions
-- https://cs.rit.edu/~hpb/Lectures/2201/605/605-485.html
-- hw63answers.txt
-- Questions?
+### HW7.3: Chess-like game, 2D, with interfaces
+
+https://www.cs.rit.edu/~hpb/Lectures/2211/605/605-407.html
+
+### HW8.1: Explaining generics at run time and compile time
+
+https://www.cs.rit.edu/~hpb/Lectures/2211/605/605-410.html
+
+### HW8.2: Implementing a generics interface for sorted storage
+
+https://www.cs.rit.edu/~hpb/Lectures/2211/605/605-411.html
 
 ### Interfaces: a splittable interface
 
@@ -73,17 +72,6 @@ Task: Create a class Node, which should hold a reference to the next
 - MyLinkedList.java (main)
 - Node.java
 
-### HW7.1: A comparable custom class
-- https://cs.rit.edu/~hpb/Lectures/2201/605/605-487.html
-- Questions?
-
-### HW7.2: A generic BST
-- https://cs.rit.edu/~hpb/Lectures/2201/605/605-488.html
-- Questions?
-
-### HW7.3: Exceptions
-- https://cs.rit.edu/~hpb/Lectures/2201/605/605-489.html
-- Questions?
 
 
 ---
